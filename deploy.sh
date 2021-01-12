@@ -1,4 +1,4 @@
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:MaraMelqonyan/My-Portfolio.git master:gh-pages
+git push -f git@github.com:MaraMelqonyan/portfolio.git master:gh-pages
