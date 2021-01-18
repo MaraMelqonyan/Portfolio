@@ -241,6 +241,18 @@ textarea{
 	resize:vertical
 }
 
+.trans{
+	animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 
 .header{
 	display: flex; 
@@ -370,6 +382,10 @@ ul.a {
 	width: 350px;
 	margin: 0 auto;
 }
+.videoBig{
+	width: 50%;
+	margin: 0 auto;
+}
 video{
 	width: 100%;
 }
@@ -454,4 +470,26 @@ h4 {
 	font-family: Neue Montreal;
 	text-align: center;
 
+}
+.wireframemom, .mmnt{
+	width: 60%;
+	margin: 0 auto;
+}
+	
+.sezmap{
+	width: 100%;
+    margin: 0 auto;
+}
+.wireframemom .mvpimg{
+	width: 100%;
+}
+
+.colordiv{
+	background-color: #efe0ff;
+	margin-top: 50px;
+}
+
+.colordivText{
+	padding-bottom: 50px;
+    padding-top: 50px;
 }
